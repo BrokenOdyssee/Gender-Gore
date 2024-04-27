@@ -1,9 +1,19 @@
+ @font-face {
+    font-family: Digital Glitch;
+    src: url('fonts/Digital Glitch Demo.ttf');
+  }
+ @font-face {
+    font-family: Glitch Inside;
+    src: url('fonts/Glitch inside.otf');
+ }
 body {
   background-color: lightblue;
   background-image: url('images/landing page bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  font-family: Arial;
+  text-shadow: 1px 1px 2px grey;
 }
 h1 {
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
@@ -14,8 +24,8 @@ h1 {
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
-  font-family: "Arial";
-  font-size: 3em;
+  font-size: 2em;
+  font-family: Digital Glitch;
 }
 p {
   text-shadow: 1px 1px 2px blue;
@@ -26,8 +36,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Arial";
   font-size: 1.2em;
+  font-family: Glitch Inside;
 }
 p2 {
   text-shadow: 1px 1px 2px blue;
