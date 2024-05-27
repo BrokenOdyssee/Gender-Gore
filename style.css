@@ -6,6 +6,7 @@
     font-family: Glitch Inside;
     src: url('fonts/Glitch inside.otf');
  }
+
 body {
   background-color: lightblue;
   background-image: url('images/landing page bg.jpg');
@@ -107,14 +108,17 @@ ul li:nth-child(5n) a{
   transform:rotate(5deg);
   position:relative;
   top:-10px;
+ }
 ul li a:hover,ul li a:focus{
   box-shadow:10px 10px 7px rgba(0,0,0,.7);
   transform: scale(1.25);
   position:relative;
   z-index:5;
 }
-.Pronouns Card{
-    text-align: center;
+#Pronouns_Card{
+    text-align:center;
+    border-radius:10px;
+    border:solid 5px white;
     }
 .disclaimer{
    text-align: center;
